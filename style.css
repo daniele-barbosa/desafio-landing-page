@@ -1,0 +1,145 @@
+*{
+
+   margin:0px;
+   font-family: 'Inter';
+
+
+
+
+}
+#header {
+
+    background-color: #303030;
+    color:aliceblue;
+
+    width: 1440px;
+    height: 475px;
+    margin-right: 354px;
+
+   
+
+
+}
+#titulo-header {
+
+ 
+    
+    height: 72px;
+    margin-left: 62px;
+    padding-top: 206px;
+   
+    
+    /* Display xl/SemiBold */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+
+}
+
+#texto-header {
+
+   
+
+    width: 1024px;
+    height: 28px;
+    margin-left:62px;
+    margin-top:20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    
+}
+
+#hero{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 96px;
+    padding-left: 171px;
+    padding-bottom: 66.82px;
+}
+.numeros-hero{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+}
+.texto-hero{
+    font-weight: 400;
+    font-size: 20px;
+}
+#secao-historia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+#titulo-historia{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    margin-left: 77px;
+    margin-top: 250px;
+}
+#texto-historia{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    margin-left: 77px;
+    margin-top: 30px;
+    text-align: justify;
+
+}
+#imagem-historia{
+    
+    margin-left: 150px;
+    margin-top: 82px;
+}
+#formulario{
+    background-color: #303030;
+    margin-top:92px;
+    text-align: center;
+
+}
+#titulo-formulario{
+    font-style: normal;
+    color: #F9F9F9;
+    font-weight: 700;
+    font-size: 32px;
+    padding-top:87px;
+}
+input{
+    width: 508px;
+    height: 72px;
+    background-color: #FFFFFF;
+    margin: 25px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+button{
+    background-color: #C07212;
+    width: 286px;
+    height: 74px;
+    color: #F9F9F9;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-bottom: 109px;
+}
+button:hover{
+
+    transform: translate(-7px);
+}
